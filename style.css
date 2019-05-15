@@ -60,8 +60,12 @@ dl {
 .table-bloc {
   margin-bottom: 40px;
   margin-top: 40px;
-  font-size: 14px;
-  font-weight: 500px;
+  font-size: 12.8px;
+  overflow-x: auto;
+}
+
+.wrapper {
+  min-width: 550px;
 }
 
 table,
@@ -312,19 +316,78 @@ textarea {
 
 }
 
-.first-table {
-  width: 100%;
+/******************/
+/*** Table Styling ****/
+.mytable {
   border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+.mytable-head {
+  border: 1px solid black;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.mytable-head td {
+  border: 1px solid black;
+}
+
+.mytable-body {
+  border: 1px solid black;
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.mytable-body td {
+  border: 1px solid black;
+  border-top: 0;
+}
+
+.mytable-body th {
+  border: 1px solid black;
+  border-top: 0;
+}
+
+.mytable-footer {
+  border: 1px solid black;
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mytable-footer td {
+  border: 1px solid black;
+  border-top: 0;
+}
+
+.mytable-footer th {
+  border: 1px solid black;
+  border-top: 0;
 }
 
 .table-col-1-of-6 {
-  width: 18.66%;
+  width: 16.66%;
 }
 
-.table-col-1-of-4 {
-  width: 25%;
+.text-area__table {
+  border: none;
+  width: 100%;
+  resize: none;
 }
 
+.text-field__table {
+  width: 100%;
+  padding: 3px;
+
+  border: none;
+}
+
+/***************/
 
 
 .text-field {

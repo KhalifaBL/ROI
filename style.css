@@ -158,17 +158,17 @@ textarea {
 }
 
 .mytable-head {
-  border: 1px solid black;
+  border: 1.5px solid rgb(134, 133, 133);
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 .mytable-head td {
-  border: 1px solid black;
+  border: 1.5px solid rgb(134, 133, 133);
 }
 
 .mytable-body {
-  border: 1px solid black;
+  border: 1.5px solid rgb(134, 133, 133);
   border-top: 0;
   margin-top: 0;
   padding-top: 0;
@@ -177,34 +177,38 @@ textarea {
 }
 
 .mytable-body td {
-  border: 1px solid black;
+  border: 1.5px solid rgb(134, 133, 133);
   border-top: 0;
 }
 
 .mytable-body th {
-  border: 1px solid black;
+  border: 1.5px solid rgb(134, 133, 133);
   border-top: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
 
 .mytable-footer {
-  border: 1px solid black;
+  border: 1.5px solid rgb(134, 133, 133);
   border-top: 0;
   margin-top: 0;
   padding-top: 0;
 }
 
 .mytable-footer td {
-  border: 1px solid black;
+  border: 1.5px solid rgb(134, 133, 133);
   border-top: 0;
 }
 
 .mytable-footer th {
-  border: 1px solid black;
+  border: 1.5px solid rgb(134, 133, 133);
   border-top: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
+}
+
+.mytable-witnesses {
+  padding-top: 40px;
 }
 
 .table-col-1-of-6 {
